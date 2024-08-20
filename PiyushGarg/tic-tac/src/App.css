@@ -1,0 +1,30 @@
+.board-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.square-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+
+}
+.square{
+	border-radius:10px;
+	border :1px ;
+	height:100%;
+	width :100%;
+}
+.board-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border:1px solid black;
+	width:400px;
+	height:400px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
